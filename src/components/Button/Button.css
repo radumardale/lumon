@@ -1,0 +1,13 @@
+.btn {
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  background-color: var(--btn-bg-color);
+  color: var(--btn-color);
+  border: none;
+  cursor: pointer;
+}
+
+.btn:disabled {
+  background-color: var(--btn-disabled-bg-color);
+  cursor: not-allowed;
+}
