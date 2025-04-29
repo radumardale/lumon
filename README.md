@@ -14,7 +14,7 @@ Lumon is a test component library built for playing around with React, TypeScrip
 - Unit tests with React Testing Library
 - Coverage reporting with Jest
 - TypeScript path aliases for cleaner imports
-- Supports React v17, v18, and v19
+- Supports React v18, and v19
 
 ### Quick Start
 
