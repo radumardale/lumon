@@ -53,4 +53,9 @@ jobs:
 
     steps:
       - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v3
+        # uses: actions/deploy-pages@v3
+        uses: bitovi/github-actions-storybook-to-github-pages@v1.0.0
+        with:
+          path: storybook-static/
+          build_command: npm run build-storybook
+          
