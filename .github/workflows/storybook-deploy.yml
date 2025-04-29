@@ -28,6 +28,9 @@ jobs:
       - name: Build Storybook
         run: npm run build-storybook
 
+      - name: Verify Storybook build directory
+        run: test -d storybook-static || { echo "Build directory missing!"; exit 1; }        
+
       - name: Upload Storybook artifact
         uses: actions/upload-pages-artifact@v3
         with:
